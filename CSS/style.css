@@ -1,0 +1,153 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* list-style: none; */
+}
+
+/* Root Variables */
+:root {
+  --color-primary: #ff5722;
+  --color-secondary-light: #fff6f2;
+  --color-secondary-dark: #ffa589;
+  --color-navbar-: #f8f8f8;
+  --color-headings: #000;
+  --color-body: #333333;
+  --color-white: #fff;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: var(--color-body);
+  font-size: 1.4rem;
+}
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+  font-weight: 700;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.2rem;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+}
+/*  Buttons  */
+.btn {
+  outline: 0;
+  border: 0;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1.4rem;
+}
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+.btn--secondary {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-white);
+}
+.btn--block {
+  width: 100%;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .btn {
+    font-size: 1.6rem;
+  }
+  .btn-block {
+    font-size: 2rem;
+  }
+}
+/*  Badges  */
+.badge {
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.5rem 1.3rem;
+  background-color: #fff;
+  border-radius: 32px;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+.badge-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.4rem;
+  }
+}
+/*  List  */
+.list {
+  list-style: none;
+  font-size: 1.8rem;
+}
+.list--inline li {
+  display: inline-block;
+}
+.list--inline .list__item {
+  display: inline-block;
+  margin-left: 2rem;
+}
+.list--tick .list__item {
+  background: url("/assets/Images/check.svg ") no-repeat;
+  background-position: right center;
+  padding-right: 3rem;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .list--tick .list__item {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+}
+/*  Plan  */
+.block-plan {
+  display: grid;
+  gap: 2rem 3rem;
+}
+.plan {
+  max-width: 500px;
+}
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px hsla(0, 4%, 95%, 0);
+}
+.card__header,
+.card__body {
+  padding: 3rem 2.5rem;
+}
+.card__header {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-white);
+}
+@media screen and (min-width: 1024px) {
+  .block-plan {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+ 
