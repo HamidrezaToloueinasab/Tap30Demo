@@ -1,0 +1,30 @@
+<svg width="0" height="0" class="hidden">
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="Calling">
+    <title>Iconly/Light/Calling</title>
+    <g id="Iconly/Light/Calling" stroke="#000000" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+      <g id="Calling" transform="translate(2.000000, 2.500000)" stroke="#000000" stroke-width="1.5">
+        <path d="M12.353,1.95399252e-14 C16.054,0.411 18.978,3.331 19.393,7.032" id="Stroke-1"></path>
+        <path d="M12.353,3.543 C14.124,3.887 15.508,5.272 15.853,7.043" id="Stroke-3"></path>
+        <path d="M9.03152183,9.97238745 C13.0205087,13.9603606 13.9254376,9.34671782 16.46525,11.8848116 C18.9138181,14.3327574 20.322201,14.8232052 17.2188207,17.9247236 C16.8302273,18.2370218 14.3612634,21.9942591 5.68446558,13.3196663 C-2.9934057,4.64400029 0.761566311,2.17244427 1.07394391,1.78394958 C4.18376493,-1.32615434 4.66682308,0.0893829491 7.11539117,2.53732879 C9.65413011,5.07649576 5.04253498,5.9844143 9.03152183,9.97238745 Z" id="Stroke-5"></path>
+      </g>
+    </g>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="Location">
+    <title>Iconly/Light/Location</title>
+    <g id="Iconly/Light/Location" stroke="#000000" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+      <g id="Location" transform="translate(4.500000, 3.000000)" stroke="#000000" stroke-width="1.5">
+        <path d="M10,7.50050782 C10,6.11923624 8.88076376,5 7.50050782,5 C6.11923624,5 5,6.11923624 5,7.50050782 C5,8.88076376 6.11923624,10 7.50050782,10 C8.88076376,10 10,8.88076376 10,7.50050782 Z" id="Stroke-1"></path>
+        <path d="M7.49951162,18 C6.30103536,18 0,12.8983747 0,7.5632901 C0,3.38663602 3.357101,0 7.49951162,0 C11.6419223,0 15,3.38663602 15,7.5632901 C15,12.8983747 8.69798789,18 7.49951162,18 Z" id="Stroke-3"></path>
+      </g>
+    </g>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="Message">
+    <title>Iconly/Light/Message</title>
+    <g id="Iconly/Light/Message" stroke="#000000" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+      <g id="Message" transform="translate(2.000000, 3.000000)" stroke="#000000" stroke-width="1.5">
+        <path d="M15.9026143,5.8511436 L11.4593272,9.46418164 C10.6198313,10.1301843 9.4387043,10.1301843 8.59920842,9.46418164 L4.11842516,5.8511436" id="Stroke-1"></path>
+        <path d="M14.9088637,17.9999789 C17.9502135,18.0083748 20,15.5095497 20,12.4383622 L20,5.57001263 C20,2.49882508 17.9502135,5.32907052e-15 14.9088637,5.32907052e-15 L5.09113634,5.32907052e-15 C2.04978648,5.32907052e-15 1.77635684e-15,2.49882508 1.77635684e-15,5.57001263 L1.77635684e-15,12.4383622 C1.77635684e-15,15.5095497 2.04978648,18.0083748 5.09113634,17.9999789 L14.9088637,17.9999789 Z" id="Stroke-3"></path>
+      </g>
+    </g>
+  </symbol>
+</svg>
