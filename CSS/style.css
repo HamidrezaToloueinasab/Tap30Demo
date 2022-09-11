@@ -718,6 +718,14 @@ nav.nav__expanded .bar-three {
   align-items: center;
   justify-content: space-around;
 }
+.banner-phone {
+  display: none;
+  position: absolute;
+  left: 10%;
+  bottom: -50%;
+  height: auto;
+  width: 420px;
+}
 
 .intro-btn__passenger p {
   font-size: 1.4rem;
@@ -741,8 +749,8 @@ nav.nav__expanded .bar-three {
   }
 
   .intro-btn {
-    width: 530px;
-    padding: 25px;
+    width: 500px;
+    padding:  0 25px;
     border-radius: 20px;
   }
 
@@ -751,10 +759,113 @@ nav.nav__expanded .bar-three {
   }
 
   .intro-btn h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 400;
   }
 
   .intro-btn__passenger p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
+  .banner-phone {
+    display: block;
+  }
+}
+
+/* Services */
+
+.services__tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
+  padding: 5px 0 15px;
+}
+
+.services__tabs a {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100px;
+}
+
+.services__tabs .tab>p {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.services__tabs img {
+  max-width: 85px;
+}
+
+.services__tabs .tab {
+  opacity: 0.5;
+  transition: all 0.3s ease-out;
+}
+
+.services__tabs .tab:hover {
+  opacity: 1;
+}
+
+.services__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.services .feature__title {
+  margin: 1.5rem 0;
+}
+.services .feature__image {
+  display: none;
+}
+.tab-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature__detail {
+  width: 100%;
+}
+.tab-content {
+  display: none;
+}
+.tab-content.active {
+  display: flex;
+}
+.tab.active {
+  opacity: 1;
+}
+@media screen and (min-width: 1024px) {
+  .services__tabs .tab>p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .services__tabs img {
+    width: 100%;
+  }
+  .services__title {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+  }
+  .services .feature__image {
+    display: block;
+    width: 45%;
+  }
+  .services .feature__image img {
+    width: 100%;
+  }
+.services .feature__detail {
+  width: 50%;
+}
+}
+.block {
+  padding: 6rem 2rem;
+}
+
+.block-heading {
+  margin-top: 6rem;
 }
